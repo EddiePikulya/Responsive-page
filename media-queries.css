@@ -1,0 +1,79 @@
+@media screen and (max-width: 980px) {
+	header .main-title {
+		padding-left: 1.020408163265306%;
+	}
+	.design-block .title {
+		margin-top: 10.15625%;
+		margin-bottom: 3.4375%;
+	}
+	.design-block .button {
+		margin-bottom: 12.5%;
+	}
+	.content .wrapper {
+		padding: 6.25% 0;
+	}
+	.content .content-text {
+		margin: 3.125% 0 5.546875%;
+	}
+	.comment-block .comment-info {
+		padding-top: 7.5%;
+	}
+	.comment-block .comment-text {
+		width: 80%;
+		margin-top: 4.84375%;
+		margin-bottom: 7.34375%;
+	}
+	.map-form form {
+
+	}
+}
+@media screen and (max-width: 680px) {
+	header {
+		height: 74px;
+	}
+	header nav {
+		background-image: url(images/navigation.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		position: relative;
+		width: 82px;
+		height: 74px;
+		cursor: pointer;
+	}
+	header .navigation {
+		display: none;
+		position: absolute;
+	    background-color: #202529;
+	    width: 135px;
+	    bottom: -100px;
+	    left: -53px;
+	}
+	header .navigation.active {
+		display: block;
+	}
+	header .nav-li {
+		margin: 0;
+		padding: 0;
+		display: block;
+		text-align: center;
+	}
+}
+@media screen and (max-width: 480px) {
+	.content .content-images {
+		width: 300px;
+	}
+}
+@media screen and (max-width: 430px) {
+	.map-form form {
+		margin-top: 0;
+	    margin-bottom: 0;
+	    width: 0;
+	    box-shadow: none;
+	    background-color: transparent;
+	    border-radius: 0;
+	}
+	.map-form form input {
+		opacity: 1;
+	}
+}
